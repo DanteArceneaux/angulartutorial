@@ -13,6 +13,7 @@ import { FormsModule } from '@angular/forms';
   import { PostCreateComponent } from './posts/post-create/post-create.component';
   import { HeaderComponent } from './header/header.component';
   import { PostListComponent } from './posts/post-list/post-list.component';
+import { PostsService } from './posts/posts.service';
 
 @NgModule({
   declarations: [
@@ -20,6 +21,7 @@ import { FormsModule } from '@angular/forms';
     PostCreateComponent,
     HeaderComponent,
     PostListComponent,
+
   ],
   imports: [
     BrowserModule,
@@ -29,7 +31,8 @@ import { FormsModule } from '@angular/forms';
     MatCardModule,
     MatButtonModule,
     MatToolbarModule,
-    MatExpansionModule
+    MatExpansionModule,
+
 
 
   ],
