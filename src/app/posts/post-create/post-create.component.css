@@ -1,6 +1,17 @@
 
+mat-card {
+  padding: 15px;
+
+}
+
 mat-form-field,
 textarea {
-
   width: 100%;
+}
+
+.add-button {
+
+    padding: 15px;
+
+    max-width: 100px;
 }
